@@ -40,11 +40,7 @@ Version: 2.3.6
 
 ## Short description
 
-<!-- 
-This should only be 20 to 40 words, hopefully a single sentence.
--->
-
-PCA, PLS and OPLS.
+PCA, PLS(-DA) and OPLS(-DA) for multivariate analysis of omics data
 
 ## Description
 
@@ -52,24 +48,28 @@ PCA, PLS and OPLS.
 
 ## Key features
 
-- Statisctics.
+- Multivariate statistics
+- Principal Component Analysis
+- Partial Least Squares
+- Orthogonal Partial Least Squares
 
 ## Metabolomics Technologies
 
-- Omics
+- LC-MS
+- GC-MS
+- NMR
 
 ## Data Analysis
 
-- Statistics.
+- Multivariate statistics
 
 ## Screenshots
 
- TODO
+![screenshot](screenshots/multivariate.png)
 
 ## Tool Authors
 
- TODO
-- Étienne Thévenot (CEA).
+- [Étienne Thévenot](http://etiennethevenot.pagesperso-orange.fr) (CEA, LIST, MetaboHUB).
 
 ## Container Contributors
 
@@ -105,5 +105,4 @@ docker run docker-registry.phenomenal-h2020.eu/phnmnl/multivariate ...
 Use AMA style publications as a list (you can export AMA from PubMed, on the Formats: Citation link when looking at the entry).
 -->
 
-- TODO
-- Etienne A. Thevenot, Aurelie Roux, Ying Xu, Eric Ezan, and Christophe Junot (2015). Analysis of the human adult urinary metabolome variations with age, body mass index and gender by implementing a comprehensive workflow for univariate and OPLS statistical analyses. *Journal of Proteome Research*, **14**:3322-3335 (http://dx.doi.org/10.1021/acs.jproteome.5b00354).
+- Thévenot EA, Roux A, Xu Y, Ezan E, Junot C. Analysis of the Human Adult Urinary Metabolome Variations with Age, Body Mass Index, and Gender by Implementing a Comprehensive Workflow for Univariate and OPLS Statistical Analyses. J Proteome Res. 2015;14(8):3322-35.

@@ -53,11 +53,14 @@ PCA, PLS(-DA) and OPLS(-DA) for multivariate analysis of omics data
 - Partial Least Squares
 - Orthogonal Partial Least Squares
 
-## Metabolomics Technologies
+## Functionality
 
-- LC-MS
-- GC-MS
-- NMR
+- Statistical Analysis
+
+## Approaches
+
+- Metabolomics / Targeted
+- Metabolomics / Untargeted
 
 ## Data Analysis
 

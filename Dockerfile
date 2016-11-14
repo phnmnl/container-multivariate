@@ -17,8 +17,7 @@ RUN R -e "install.packages('batch', lib='/usr/lib/R/library', dependencies = TRU
 RUN R -e "source('http://bioconductor.org/biocLite.R') ; biocLite('ropls')"
 
 # Clone tool
-RUN apt-get -y install git
-RUN git clone -b 2.3.6 https://github.com/workflow4metabolomics/multivariate /files/multivariate
+RUN git clone -b master https://github.com/workflow4metabolomics/multivariate /files/multivariate
 
 # Make it executable
 RUN chmod a+rx /files/multivariate/multivariate_wrapper.R && cp /files/multivariate/multivariate_wrapper.R /usr/local/bin/

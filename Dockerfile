@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 MAINTAINER Etienne Thevenot (etienne.thevenot@cea.fr)
 
 ENV TOOL_VERSION=2.3.10
-ENV CONTAINER_VERSION=1.1
+ENV CONTAINER_VERSION=1.2
 
 LABEL version="${CONTAINER_VERSION}"
 LABEL tool_version="${TOOL_VERSION}"

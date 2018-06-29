@@ -3,7 +3,7 @@
 ![Logo](w4m.png)
 
 # W4M Multivariate
-Version: 2.3.10
+Version: 2.3.12
 
 ## Short description
 
